@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caffede  House</title>
+    <link rel="shortcut icon" type="image/png" href="logo.png"/>
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="popper.js"></script>
+    <script src="bootstrap.js"></script><link rel="stylesheet" href="efect.css">
+
+    <style>
+        body{
+            background-image: url("bg.jpg");
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        .logo{
+            height: 80px;
+        }
+
+        .menurenk{
+            background-color: #2f1810;
+            opacity: 90%;
+        }
+
+        .stn1{
+            background-color: #f6e1c5;
+        }
+        .stn2{
+            background-color:#d79b51;
+            height: 450px;
+        }
+        .centeryazi{
+            text-align: center;
+        }
+        .stn2devam{
+            height: 300px;
+            background-color: #f6e1c5;
+        }
+        .borderenk{
+            border-color: #2f1810 !important;
+        }
+        .footerarka{
+            background-color: #2f1810 ;
+        }
+
+        .fotercolor{
+            color: #d79b51;
+        }
+
+        .arkaresim{
+            height: 250px;
+        }
+
+        ul>.stn1>a{
+            color: black;
+        }
+        
+
+        .kahveyuk{
+            height: 130px;
+            transition-duration: 2s;
+
+        }
+
+        .baslik{
+            background-color: #1d3d35;
+            color: white;
+        }
+        
+
+        figure>img:hover{
+            transition-duration: 2s;
+            height: 180px;
+            -webkit-transform: scale(0.9);
+            -ms-transform: scale(0.9);  
+            -moz-transform: scale(0.9);
+            transform: scale(0.9);
+           
+        }
+    </style>
+</head>
+
+<script>
+   
+
+    function uzerındenCık(){
+        document.getElementById("r1").style.transitionDuration="2s";
+        document.getElementById("r1").style.height="130px";
+    }
+</script>
+<body>
+    <nav class=" navbar navbar-dark  navbar-expand-lg menurenk justify-content-center ">
+        <div class="container-fluid " >
+            <a href="index.html" class="navbar-brand ">
+                <div class="stage">
+                    <div class="wrapper">
+                      <div class="slash"></div>
+                      <div class="sides">
+                        <div class="side"></div>
+                        <div class="side"></div>
+                        <div class="side"></div>
+                        <div class="side"></div>
+                      </div>
+                      <div class="text">
+                        <div class="text--backing">Caffede  House</div>
+                        <div class="text--left">
+                          <div class="inner">Caffede  House</div>
+                        </div>
+                        <div class="text--right">
+                          <div class="inner">Caffede  House</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-center " id="navbarSupportedContent"  >
+                  
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active " aria-current="page" href="index.html">ANASAYFA</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " href="hakkimizda.html">HAKKIMIZDA</a>
+                    </li>
+                    <li class="nav-item dropdown ">
+                      <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        ÜRÜNLERİMİZ
+                      </a>
+                      <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="kahveler.html">Kahvelerimiz</a></li>
+                        <li><a class="dropdown-item" href="#">Yiyecekler</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " href="#" >MAĞAZA</a>
+                    </li>
+                  </ul>               
+                  <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn bg-light " type="submit">Search</button>
+                  </form>
+                
+            </div>
+        </div>
+    </nav>
+
+<div class="container-fluid">
+       <div class="row stn1 ">
+        <div class="col-lg-12 mt-4 col-sm-12 col-md-12 ">
+            <h2 class="font-monospace baslik p-4 rounded-3" style="box-shadow: 5px 10px 18px #2f1810;">Şişelenmiş İçecekler</h2>
+        </div>
+            <div class="col-lg-3 mt-4 col-md-6 col-sm-6">
+            <figure class="figure ">
+                <img src="kahveler/36.jpg" alt="" class=" bg-danger rounded-3 img-fluid figure-img kahveyuk" id="r1">
+                <figcaption class="figure-caption text-center text-dark">Feel More Nar Suyu</figcaption>
+            </figure>
+            </div>
+
+            <div class="col-lg-3 mt-4 col-md-6 col-sm-6">
+                <figure class="figure ">
+                    <img src="kahveler/37.jpg" alt="" class=" bg-danger rounded-3 img-fluid figure-img kahveyuk" id="r1">
+                    <figcaption class="figure-caption text-center text-dark">Feel More Karışık Meyve Suyu</figcaption>
+                </figure>
+                </div>
+
+                <div class="col-lg-3 mt-4 col-md-6 col-sm-6">
+                    <figure class="figure ">
+                        <img src="kahveler/38.jpg" alt="" class=" bg-danger rounded-3 img-fluid figure-img kahveyuk" id="r1">
+                        <figcaption class="figure-caption text-center text-dark">Feel More Üzüm Suyu</figcaption>
+                    </figure>
+                    </div>     
+
+                    <div class="col-lg-3 mt-4 col-md-6 col-sm-6">
+                        <figure class="figure ">
+                            <img src="kahveler/39.jpg" alt="" class=" bg-danger rounded-3 img-fluid figure-img kahveyuk" id="r1">
+                            <figcaption class="figure-caption text-center text-dark"> Feel More Limonata</figcaption>
+                        </figure>
+                        </div>  
+   </div>
+
+   <div class="row stn1 ">
+        <div class="col-lg-3 mt-4 col-md-6 col-sm-6">
+        <figure class="figure ">
+            <img src="kahveler/40.jpg" alt="" class="  rounded-3 img-fluid figure-img kahveyuk" id="r1">
+            <figcaption class="figure-caption text-center text-dark">S.Pellegrino</figcaption>
+        </figure>
+        </div>
+
+        <div class="col-lg-3 mt-4 col-md-6 col-sm-6">
+            <figure class="figure ">
+                <img src="kahveler/41.jpg" alt="" class="bg-light  rounded-3 img-fluid figure-img kahveyuk" id="r1">
+                <figcaption class="figure-caption text-center text-dark">San Pellegrino Limonlu Gazlı İçecek</figcaption>
+            </figure>
+            </div>
+
+            <div class="col-lg-3 mt-4 col-md-6 col-sm-6">
+                <figure class="figure ">
+                    <img src="kahveler/42.jpg" alt="" class=" bg-light rounded-3 img-fluid figure-img kahveyuk" id="r1">
+                    <figcaption class="figure-caption text-center text-dark">San Pellegrino Portakallı Gazlı İçecek</figcaption>
+                </figure>
+                </div>     
+
+                <div class="col-lg-3 mt-4 col-md-6 col-sm-6">
+                    <figure class="figure ">
+                        <img src="kahveler/43.jpg" alt="" class="  rounded-3 img-fluid figure-img kahveyuk" id="r1">
+                        <figcaption class="figure-caption text-center text-dark"> Akmina Mineralli Su</figcaption>
+                    </figure>
+                    </div>  
+</div>
+  
+</div>
+</body>
+</html>
